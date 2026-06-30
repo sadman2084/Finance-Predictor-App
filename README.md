@@ -1,7 +1,7 @@
 #  Finance Predictor
 
 A full-stack AI-powered personal finance management application built with **Flutter**, **FastAPI**,**Firebase**, and **Machine Learning**. The application helps users track income and expenses, predict future financial trends, analyze spending behavior, and receive intelligent financial insights.
-
+Hosting :https://finance-app-d0d00.web.app/
 ---
 
 ## Features
