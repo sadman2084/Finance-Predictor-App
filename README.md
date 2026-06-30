@@ -22,6 +22,7 @@
 
 **Demo Stack:** Flutter (iOS/Android) → FastAPI Backend → PostgreSQL + Firebase + ML Pipeline
 
+Hosting:https://finance-app-d0d00.web.app/
 ---
 
 ## ✨ Key Features
