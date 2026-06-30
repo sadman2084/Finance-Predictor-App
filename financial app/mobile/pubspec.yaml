@@ -1,0 +1,63 @@
+name: finance_predictor
+description: "AI-based personal finance & expense predictor for Bangladesh"
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI & State Management
+  cupertino_icons: ^1.0.2
+  provider: ^6.0.0
+  
+  # Firebase
+  firebase_core: ^2.24.2
+  firebase_database: ^10.4.0
+  cloud_firestore: ^4.14.0
+  firebase_auth: ^4.17.0
+  firebase_messaging: ^14.6.0
+  
+  # Charts & Visualization
+  fl_chart: ^0.65.0
+  
+  # Date & Time
+  intl: ^0.18.1
+  
+  # HTTP & Data
+  http: ^1.1.0
+  dio: ^5.3.0
+  image_picker: ^1.1.2
+
+  # Reporting Export
+  pdf: ^3.11.1
+  
+  # Utility
+  get_it: ^7.6.0
+  logger: ^2.0.0
+  path_provider: ^2.1.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  flutter_launcher_icons: ^0.14.3
+
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: "logo.png"
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "logo.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/

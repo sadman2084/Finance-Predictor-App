@@ -1,0 +1,8 @@
+.packages
+.dart_tool/
+.flutter/
+build/
+ios/
+android/
+.env
+.env.local

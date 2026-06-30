@@ -1,0 +1,14 @@
+.gradle/
+.gradle-user/
+build/
+**/.gradle/
+**/.gradle-user/
+**/build/
+
+.idea/
+.vscode/
+
+__pycache__/
+*.pyc
+
+.env
